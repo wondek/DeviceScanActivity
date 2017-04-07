@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="margin_huge">64dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="vertical_page_margin">@dimen/margin_medium</dimen>
+    <string name="app_name">BluetoothLeGatt</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="error_no_bluetooth_enabled">To use this app you need to turn on Bluetooth</string>
+    <string name="error_no_bluetooth_le">This device does not support Bluetooth Low Energy</string>
+    <string name="error_no_location_permission">To use this app you need to grant location permission</string>
+    <string name="intro_message">
+        
+        
+            
+            This sample demonstrates how to use the Bluetooth LE Generic Attribute Profile (GATT)
+            to transmit arbitrary data between devices.
+            
+        
+        
+    </string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="no_data">No data</string>
+    <string name="requesting_location_access">Requesting location access</string>
+    <string name="requesting_location_access_cancel">I don\'t want to do this now</string>
+    <string name="requesting_location_access_ok">Go to settings to enable</string>
+    <string name="requesting_location_access_rationale">
+    Detecting beacons requires Location to be enabled. We\'ll never access your GPS location without your knowledge.
+  </string>
+    <string name="requesting_location_permission">Requesting location permission</string>
+    <string name="requesting_location_permission_rationale">
+    Detecting beacons requires Location permission. Please "Allow" so app can detect beacons.
+  </string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_service">Unknown service</string>
+    <style name="AppTheme" parent="Theme.Sample"/>
+    <style name="Theme.Base" parent="android:Theme.Holo.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <style name="Theme.Transparent" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <style name="Widget"/>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
